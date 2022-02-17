@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "venv"
+version = "0.1.0"
+description = ""
+authors = ["Mateusz Ostrowski <34621910+MattyOstrowsky@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+psycopg2-binary = "^2.9.3"
+wheel = "^0.37.1"
+Django = "^4.0.2"
+django-rest-framework = "^0.1.0"
+python-dotenv = "^0.19.2"
+djoser = "^2.1.0"
+django-cors-headers = "^3.11.0"
+phonenumbers = "^8.12.43"
+django-phonenumber-field = "^6.0.0"
+Pillow = "^9.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+coverage = "^6.3.1"
+black = "^22.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

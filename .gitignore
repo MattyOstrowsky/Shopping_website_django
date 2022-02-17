@@ -1,0 +1,12 @@
+.vscode
+poetry.lock
+webshop/.coverage
+webshop/.coveragerc
+webshop/accounts/__pycache__
+webshop/stock/__pycache__
+webshop/shop/__pycache__
+webshop/shop/migrations
+webshop/stock/migrations
+webshop/accounts/migrations
+webshop/webshop/__pycache__
+htmlcov
